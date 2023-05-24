@@ -6,6 +6,10 @@ app.get("/",(req,res) => {
     res.send("Hello World")
 })
 
+app.get("/testing",(req,res) => {
+    res.send("checking 1")
+})
+
 
 
 
